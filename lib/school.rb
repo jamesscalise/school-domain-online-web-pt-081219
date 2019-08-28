@@ -25,6 +25,11 @@ class School
     return roster[grade]
   end
   
+  def sort
+  newHash = {}
+    roster.each{|grade, student|
+    }
+  end 
     
 end
 
