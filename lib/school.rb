@@ -26,9 +26,11 @@ class School
   end
   
   def sort
-  newHash = {}
+    newHash = {}
     roster.each{|grade, student|
+      newHash[grade] = student.sort
     }
+    newHash
   end 
     
 end
